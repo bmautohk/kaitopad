@@ -12,7 +12,7 @@ while (($file = readdir($dh)) !== false) {
                 'size' => filesize($dir . $file). ' bytes',
                 'date' => date("F d Y H:i:s", filemtime($dir . $file)),
                 'path' => $dir . $file,
-                'thumb' => $dir . 'thumbs/thumb_' . $file
+                'thumb' => $dir . 'thumbs/' . $file
             );
         }            
     }
