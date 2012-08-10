@@ -1,7 +1,7 @@
 Gallery.views.AlbumViewPanel = Ext.extend(Ext.Panel, {
- fullscreen:true,
+	fullscreen:true,
     layout: 'fit',
-    html: '<div style="background:#fff;"></div>',
+	html: '<div style="background:#fff;"></div>',
     initComponent: function() {
         this.store = new Ext.data.Store({
             autoLoad: true,
@@ -46,8 +46,7 @@ Gallery.views.AlbumViewPanel = Ext.extend(Ext.Panel, {
         this.dataView = new Ext.DataView({
             store: this.store,
             tpl: this.xtpl,
-			scroll: false,
-            itemSelector: 'div.node'
+			itemSelector: 'div.node'
         });
         
         this.items = [this.dataView];
