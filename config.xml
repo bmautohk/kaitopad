@@ -2,9 +2,13 @@
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
 	id		= "com.bmauthk"
+<<<<<<< HEAD
 	version 	= "1.0.1">
+=======
+	version 	= "1.0.2">
+>>>>>>> 19a77f2207746f5392fff236851ed4e6531aca4b
 
-	<name>Bmautohk.com</name>
+	<name>Bmautohk</name>
 
 	<description>
 		Bmautohk
